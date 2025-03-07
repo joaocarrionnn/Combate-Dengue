@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+}
+
+.container-fluid {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./img/mosquito_4998145-3635550855555555555.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 60px; 
+    height: 60px;
+}
+
+.logo{
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: #f0f0f0;
+}
+
+.logo h1{
+    font-size: 37px;
+}
+
+
+.nav{
+    margin-right: 20px;
+    gap: 20px;
+}
+
+main{
+    
+    height: 100vh;
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+}
+
+main h1{
+    
+    font-family: "outfit", sans-serif;
+    font-size: 100px;
+    
+}
+
+.titulo span{
+    color: rgb(251, 255, 0);
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 75px;
+    max-width: 500px;
+    color: #f0f0f0;
+}
+
+.titulo p{
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+}
+
+
+.form-control-custom {
+    width: 200px; /* Ajuste a largura conforme necessário */
+    height: 40px; /* Ajuste a altura conforme necessário */
+    font-size: 16px; /* Ajuste o tamanho da fonte para combinar com a altura */
+    padding: 10px; /* Ajuste o padding para melhorar a aparência */
+}
+
+.input-group .form-control {
+    height: 40px; /* Ajuste a altura do input dentro do input-group */
+    font-size: 16px; /* Ajuste o tamanho da fonte */
+}
+
+.input-group .btn {
+    height: 40px; /* Ajuste a altura do botão para combinar com o input */
+    
+}
+
+
+
