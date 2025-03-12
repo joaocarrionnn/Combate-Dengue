@@ -10,15 +10,16 @@
 body {
     display: flex;
     flex-direction: column; 
+    background-image: url(../img/istockphoto-1095286208-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container-fluid {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url(./img/mosquito_4998145-3635550855555555555.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 
 header {
@@ -82,17 +83,17 @@ main form{
 
 
 .btn-sair {
-    background-color: #ff0000; /* Fundo vermelho */
-    color: white; /* Texto branco */
-    padding: 5px 10px; /* Espaçamento interno */
-    border: none; /* Remove a borda padrão */
-    border-radius: 5px; /* Arredondamento das bordas */
-    cursor: pointer; /* Altera o cursor para indicar que é clicável */
-    text-decoration: none; /* Remove a linha inferior do link */
+    background-color: #ff0000;
+    color: white; 
+    padding: 5px 10px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    text-decoration: none; 
 }
 
 .btn-sair:hover {
-    background-color: #cc0000; /* Altera a cor do fundo ao passar o mouse */
+    background-color: #cc0000; 
 }
 
 
@@ -105,7 +106,7 @@ main form{
     left: 50px; 
     top: 250px; 
     width: 50%; 
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px; 
     padding: 20px; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
@@ -143,6 +144,18 @@ main form{
     justify-content: end;
     gap: 10px;
 }
+
+
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+a:hover, a:focus {
+    text-decoration: none; 
+}
+
+
 
 
 
