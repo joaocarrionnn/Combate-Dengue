@@ -19,6 +19,7 @@ body {
     background-image: url(./img/mosquito_4998145-3635550855555555555.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0 5px 10px rgba(150, 149, 149, 0.5);
 }
 
 header {
@@ -104,4 +105,19 @@ main h1{
 }
 
 
+.mapa{
+    padding-left:80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+}
 
+
+
+
+#map { 
+    height: 500px;  /* Ajuste a altura conforme necessário */
+    width: 100%; 
+}
