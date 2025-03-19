@@ -20,4 +20,3 @@ var circle = L.circle([-23.550520, -46.633308], {
 circle.bindPopup("Área de risco para Dengue");
 
 
-fetch

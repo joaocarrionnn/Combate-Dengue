@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+    background-image: url(../img/istockphoto-1095286208-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-fluid {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 60px; 
+    height: 60px;
+}
+
+.logo{
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.logo h1{
+    font-size: 37px;
+}
+
+
+.nav{
+    margin-right: 20px;
+    gap: 20px;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    
+}
+
+main h1{
+    margin: 50px;
+}
+
+main form{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.usuario{
+    gap: 60px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.btn-sair {
+    background-color: #ff0000;
+    color: white; 
+    padding: 5px 10px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    text-decoration: none; 
+}
+
+.btn-sair:hover {
+    background-color: #cc0000; 
+}
+
+
+
+
+
+.lista {
+    margin-top: 80px;
+    margin-left: 50px;
+    left: 50px; 
+    top: 250px; 
+    width: 50%; 
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  }
+  
+  table {
+    width: 100%; 
+  }
+  
+  th, td {
+    text-align: center; 
+    padding: 8px; 
+  }
+  
+  th {
+    background-color: #f8f9fa; 
+  }
+  
+  @media (max-width: 768px) {
+    .lista {
+      width: 80%; 
+      left: 20px;
+    }
+  }
+  
+
+.lista h2{
+    margin-bottom: 30px;
+
+}
+
+.lista i{
+    display: flex;
+    align-self:baseline;
+    justify-content: end;
+    gap: 10px;
+}
+
+
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+a:hover, a:focus {
+    text-decoration: none; 
+}
+
+
+
+
+
+
+
+
